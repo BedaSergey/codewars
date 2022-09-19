@@ -14,3 +14,14 @@ func NbYear(p0 int, percent float64, aug int, p int) int {
   }
   return years
 }
+
+/* Clever solution 
+func NbYear(p0 int, percent float64, aug int, p int) (n int) {
+  if p0 >= p {
+    return n
+  }
+  newP := p0 + aug + int(float64(p0)*percent/100)
+  n++
+  return n + NbYear(newP, percent, aug, p)
+}
+*/
