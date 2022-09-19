@@ -36,10 +36,10 @@ the function nb_year should return n number of entire years needed to get a popu
 aug is an integer, percent a positive or null floating number, p0 and p are positive integers (> 0)
 
 ### Examples:
-
+```go
 nb_year(1500, 5, 100, 5000) -> 15
 nb_year(1500000, 2.5, 10000, 2000000) -> 10
-
+```
 ### Note:
 
 Don't forget to convert the percent parameter as a percentage in the body of your function: if the parameter percent is 2 you have to convert it to 0.02.
